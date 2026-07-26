@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+source: https://raw.githubusercontent.com/Eventual-Inc/Daft/main/AGENTS.md
+notes: >-
+  Provider-published agent guidance saved verbatim. Daft ships an AGENTS.md at the root of the
+  Eventual-Inc/Daft repository (contributor/dev-workflow oriented: environment setup, build, test
+  runners, PR conventions). Daft is a Python/Rust data-engine library rather than a hosted REST API,
+  so there is no OpenAPI surface to GENERATE operation-grounded usage skills from — only the real
+  provider-published file is captured here (no fabricated operationIds).
+skills:
+- file: eventual-daft-agents.md
+  name: Daft contributor and dev-workflow guide (AGENTS.md)
+  api: null
+  operations: []
+  source: https://github.com/Eventual-Inc/Daft/blob/main/AGENTS.md
+  verbatim: true

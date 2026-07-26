@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/daft/
+packages:
+- language: python
+  registry: pypi
+  name: daft
+  url: https://pypi.org/project/daft/
+  install: pip install daft
+  version: 0.7.21
+  license: Apache-2.0
+  repository: https://github.com/Eventual-Inc/Daft
+  summary: Distributed Dataframes for Multimodal Data — the Daft data engine (Rust core, Python API).
+  official: true
+notes: >-
+  Daft ships a single first-party client library: the `daft` Python package on PyPI, backed by a
+  Rust core compiled into native wheels. No separate first-party JavaScript, Java/Scala, Go, or Ruby
+  SDK is published. A crate named `daft` exists on crates.io but belongs to Oxide Computer (structural
+  diffs), NOT Eventual — excluded here. Optional feature extras (e.g. ray, deltalake, iceberg, hudi,
+  unity) are installed as `pip install "daft[<extra>]"`.

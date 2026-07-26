@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Eventual-Inc/Daft/releases
+versioning:
+  scheme: semver
+  current: 0.7.21
+  pre_1_0: true
+  docs: https://github.com/Eventual-Inc/Daft/releases
+release_process:
+  cadence: multiple releases per month
+  notes_url: https://github.com/Eventual-Inc/Daft/releases
+  pr_convention: Conventional Commits (enforced by .github/workflows/pr-labeller.yml)
+  source: https://raw.githubusercontent.com/Eventual-Inc/Daft/main/AGENTS.md
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    No formal written deprecation policy or Sunset/Deprecation HTTP header contract — Daft is a
+    client library, not a hosted HTTP API. Deprecations are announced per-release in the GitHub
+    release notes (e.g. min_cpu_per_task deprecated in v0.7.20).
+sla:
+  url: null
+  notes: Open-source Apache-2.0 library; no hosted-service SLA.
+status_page: null
+status_page_notes: No status page — Daft is an installed library with no hosted control plane.

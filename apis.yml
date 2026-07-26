@@ -1,8 +1,11 @@
 aid: eventual
 name: Eventual
-description: 'Eventual is a company surfaced as a portfolio company of crv, felicis and added to the API
-  Evangelist network as a stub for enrichment. Sector: data. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Eventual is a data infrastructure company building Daft, an open-source, high-performance
+  data engine for AI and multimodal workloads. Written in Rust with Python and SQL interfaces, Daft lets
+  teams query and process images, audio, video, documents, embeddings, and structured data from a local
+  laptop to petabyte-scale distributed clusters on Ray or Kubernetes. Eventual also builds MultiBase, a
+  semantic data platform for Physical AI teams. Daft runs in production at exabyte scale at organizations
+  including Amazon, Mobileye, and Together AI, and Eventual is backed by CRV and Felicis.'
 url: https://raw.githubusercontent.com/api-evangelist/eventual/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +14,34 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://github.com/Eventual-Inc.png
 tags:
 - Company
 - Data
+- Data Engine
+- AI
+- Multimodal
+- Analytics
+- Open Source
+- Python
+- Rust
+- Dataframe
+- Physical AI
+- Distributed Computing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.eventual.ai/
+- type: DeveloperPortal
+  url: https://www.daft.ai/
+- type: Documentation
+  url: https://docs.daft.ai/en/stable/
+- type: APIReference
+  url: https://docs.daft.ai/en/stable/api/
+- type: GettingStarted
+  url: https://docs.daft.ai/en/stable/quickstart/
+- type: Quickstart
+  url: https://docs.daft.ai/en/stable/quickstart/
+- type: Blog
+  url: https://www.daft.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/Eventual-Inc
+- type: Support
+  url: https://www.daft.ai/slack
+- type: TermsOfService
+  url: https://www.eventual.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.eventual.ai/privacy-policy
+- type: Packages
+  url: packages/eventual-packages.yml
+- type: SDKs
+  url: packages/eventual-packages.yml
+- type: ChangeLog
+  url: changelog/eventual-changelog.yml
+- type: Lifecycle
+  url: lifecycle/eventual-lifecycle.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/eventual-llms.txt
+- type: DomainSecurity
+  url: security/eventual-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

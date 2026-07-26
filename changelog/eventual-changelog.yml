@@ -1,0 +1,45 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Eventual-Inc/Daft/releases
+scheme: semver
+current_version: 0.7.21
+cadence: frequent (multiple releases per month)
+notes: >-
+  Daft publishes dated, versioned GitHub Releases with auto-generated notes grouped into features,
+  bug fixes, and deprecations. Conventional Commits PR titles drive the changelog. Recent window only.
+entries:
+- version: 0.7.21
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - Fixed UDF options handling in OpenAI requests.
+  - Added Physical AI examples to the documentation.
+  - Minor bug fixes and documentation improvements.
+- version: 0.7.20
+  date: '2026-07-14'
+  breaking: false
+  highlights:
+  - Iceberg filter pushdown for starts_with and is_nan/not_nan.
+  - Fixed file-descriptor leaks and a GIL deadlock.
+  - Deprecated the min_cpu_per_task configuration parameter.
+- version: 0.7.19
+  date: '2026-07-10'
+  breaking: false
+  highlights:
+  - Added MCAP file reading support via pip extras.
+  - Parquet writing gained a single-file option.
+  - Telemetry segmentation-fault prevention.
+- version: 0.7.18
+  date: '2026-07-08'
+  breaking: false
+  highlights:
+  - Removed the DynamoDB dependency for concurrent S3 writes on Delta Lake.
+  - Batched video-frame decoding for LeRobot datasets.
+  - Expanded GooseFS configuration exports.
+- version: 0.7.17
+  date: '2026-07-06'
+  breaking: false
+  highlights:
+  - HDF5 and HuggingFace bucket integration support.
+  - New LeRobot dataset integration (daft.datasets.lerobot).
+  - Transformers provider for prompt processing; shuffle/aggregation stability.
